@@ -40,7 +40,10 @@
     "react-native-screens": "~2.9.0",
     "react-native-vector-icons": "^9.0.0",
     "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^2.0.15"
+    "react-navigation-stack": "^2.0.15",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
