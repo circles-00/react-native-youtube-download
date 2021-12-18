@@ -1,0 +1,46 @@
+{
+  "name": "backend-react-native-youtube-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon -x ts-node server.ts",
+    "start": "ts-node server.ts"
+  },
+  "author": "Nikola Krezeski",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "lodash.isempty": "^4.4.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "pg-monitor": "^1.4.1",
+    "pg-promise": "^10.11.1",
+    "postgres-migrations": "^5.3.0",
+    "winston": "^3.3.3",
+    "winston-mail": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/bluebird": "^3.5.36",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/lodash.isempty": "^4.4.6",
+    "@types/node": "^17.0.0",
+    "@types/passport": "^1.0.7",
+    "@types/passport-jwt": "^3.0.6",
+    "@types/pg-promise": "^5.4.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
