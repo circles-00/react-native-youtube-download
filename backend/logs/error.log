@@ -16,3 +16,633 @@
 2021-12-18 18:17:42 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
   "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
 }
+2021-12-18 19:38:55 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 19:40:54 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 19:47:38 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 19:52:38 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 19:58:41 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:00:11 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:03:09 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:05:47 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:07:04 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:10:34 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:17:52 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:19:04 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:23:06 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:23:42 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:26:33 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:26:44 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:38:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:40:25 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 20:48:58 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:05:29 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:06:46 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:19:41 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:21:05 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:25:04 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:26:23 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:26:42 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 21:32:24 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:26:39 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:26:45 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:26:46 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:11 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:15 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:22 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:48 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:49 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:49 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:50 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:50 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:50 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:51 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:51 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:51 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:54 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:54 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:57 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:58 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:59 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:59 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:01 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:01 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:01 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:03 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:03 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:03 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:58:22 [[31merror[39m]: Error handler  Invalid body {
+  "name": "ValidationError",
+  "info": {
+    "first_name": "You must provide your last name"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "Bad request",
+  "stack": "ValidationError: Invalid body\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:35:29)\n    at Generator.next (<anonymous>)\n    at D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:4:12)\n    at AuthService.register (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:42:16)\n    at AuthController.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:57:51)\n    at Generator.next (<anonymous>)\n    at D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:4:12)\n    at AuthController.register (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:63:16)\n    at Layer.handle [as handle_request] (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\express\\lib\\router\\route.js:137:13)"
+}

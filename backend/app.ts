@@ -1,7 +1,7 @@
 import express, {Request, Response} from 'express'
 import {Application} from 'express'
 import path from 'path'
-import IErrorHandlerInterface from "./src/interfaces/IErrorHandler.interface";
+import IErrorHandlerInterface from "./src/interfaces/errors/IErrorHandler.interface";
 import {logger} from "./src/logger/Logger";
 import passport from "passport";
 import jwtMiddleware from './src/middlewares/jwt'
@@ -43,17 +43,17 @@ class App {
         this.app.use(errorHandler)
     }
 
-    // public serveStaticContent() {
-    //     this.app.use(express.static(path.join(__dirname, "client/build")));
-    //
-    //     this.app.get("/*", (req: Request, res: Response) => {
-    //         res.sendFile(path.join(__dirname, "client/build/index.html"), function (err) {
-    //             if (err) {
-    //                 res.status(500).send(err.message);
-    //             }
-    //         });
-    //     });
-    // }
+    public serveStaticContent() {
+        this.app.use(express.static(path.join(__dirname, "client/build")));
+
+        this.app.get("/*", (req: Request, res: Response) => {
+            res.sendFile(path.join(__dirname, "client/build/index.html"), function (err) {
+                if (err) {
+                    res.status(500).send(err.message);
+                }
+            });
+        });
+    }
 
     public listenForErrors() {
         process.on('unhandledRejection', (reason: Error, promise: Promise<any>) => {

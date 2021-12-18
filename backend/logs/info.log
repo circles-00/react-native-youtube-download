@@ -48,3 +48,699 @@
 2021-12-18 18:17:42 [[32minfo[39m]: Postgres connected! 
 2021-12-18 18:18:40 [[32minfo[39m]: App listening on port 5000! 
 2021-12-18 18:18:40 [[32minfo[39m]: Postgres connected! 
+2021-12-18 18:27:41 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 18:27:41 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:36:01 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:36:01 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:38:55 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 19:38:55 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 19:40:51 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:40:52 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:40:54 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 19:40:54 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 19:47:37 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:47:37 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:47:38 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 19:47:38 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 19:48:20 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:48:21 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:52:37 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:52:37 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:52:38 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 19:52:38 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 19:52:38 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 19:53:07 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:53:07 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:58:40 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 19:58:40 [[32minfo[39m]: Postgres connected! 
+2021-12-18 19:58:41 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 19:58:41 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:00:10 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:00:10 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:00:11 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:00:11 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:00:18 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:00:18 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:03:08 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:03:09 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:03:09 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:03:09 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:05:35 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:05:35 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:05:46 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:05:46 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:05:47 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:05:47 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:06:32 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:06:32 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:06:34 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:06:36 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:06:36 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:06:37 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:06:37 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:06:37 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:07:01 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:07:01 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:07:04 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:07:04 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:07:28 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:07:28 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:08:50 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:08:51 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:09:13 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:09:13 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:09:14 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:09:21 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:09:22 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:10:12 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:10:12 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:10:12 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:10:32 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:10:33 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:10:34 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:10:34 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:13:43 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:13:43 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:13:51 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:13:51 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:14:04 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:14:04 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:14:17 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:14:17 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:15:16 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:15:16 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:15:38 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:15:38 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:17:50 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:17:50 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:17:52 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:17:52 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:19:01 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:19:02 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:19:04 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:19:04 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:19:25 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:19:25 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:22:51 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:22:52 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:23:05 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:23:06 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:23:41 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:23:41 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:23:42 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:23:42 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:23:49 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:23:50 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:25:52 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:25:52 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:26:01 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:26:01 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:26:33 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:26:33 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:26:33 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:26:33 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:26:43 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:26:43 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:26:44 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:26:44 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:26:53 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:26:53 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:32:52 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:32:52 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:34:46 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:34:46 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:35:45 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:35:46 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:37:58 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:37:58 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:37:59 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:38:00 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:40:23 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:40:23 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:40:25 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:40:25 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:40:39 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:40:39 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:48:57 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:48:58 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:48:58 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:48:58 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 20:49:19 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:49:19 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:51:05 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:51:05 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:51:06 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:52:23 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:52:24 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:52:40 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:52:40 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:53:15 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:53:15 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:53:18 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:53:39 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:53:40 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:53:40 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:55:46 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:55:46 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:55:55 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:55:55 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:56:06 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:56:06 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:56:11 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:14 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 20:58:14 [[32minfo[39m]: Postgres connected! 
+2021-12-18 20:58:14 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:16 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:16 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:17 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:17 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:17 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:17 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:18 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:18 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:18 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:18 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:19 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:19 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 20:58:19 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:04:49 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:04:49 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:04:55 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:04:55 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:05:28 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:05:28 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:05:29 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:05:29 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:06:06 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:06:06 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:06:32 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:06:33 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:06:33 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:06:46 [[32minfo[39m]: Request logged:POST /auth/api/auth/login 
+2021-12-18 21:06:46 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:06:55 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:06:56 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:07:13 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:07:13 [[32minfo[39m]: Request logged:POST /auth/api/auth/login 
+2021-12-18 21:07:13 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:07:15 [[32minfo[39m]: Request logged:POST /auth/api/auth/login 
+2021-12-18 21:07:15 [[32minfo[39m]: Request logged:POST /auth/api/auth/login 
+2021-12-18 21:07:19 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:07:50 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:07:50 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:07:50 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:09:17 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:09:17 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:09:36 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:09:37 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:09:42 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:09:42 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:09:42 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:10:30 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:10:30 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:11:07 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:11:07 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:11:07 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:11:37 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:11:37 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:11:39 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:11:40 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:11:40 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:11:51 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:11:51 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:12:41 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:12:42 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:12:44 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:12:57 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:12:57 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:18:56 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:18:56 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:19:07 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:19:07 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:19:08 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:19:19 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:19:19 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:19:41 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:19:41 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:20:58 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:20:58 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:21:04 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:21:05 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:21:05 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:21:05 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:21:21 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:21:21 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:23:24 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:23:24 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:25:00 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:25:00 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:25:04 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:25:04 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:25:17 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:25:17 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:26:14 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:26:14 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:26:23 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:26:23 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:26:35 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:26:35 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:26:42 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:26:42 [[32minfo[39m]: Unhandled rejection 
+2021-12-18 21:31:16 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:31:16 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:31:26 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:31:27 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:31:32 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:32:17 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 21:32:17 [[32minfo[39m]: Postgres connected! 
+2021-12-18 21:32:23 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 21:32:24 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:26:14 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 22:26:14 [[32minfo[39m]: Postgres connected! 
+2021-12-18 22:26:39 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:26:39 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:26:45 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:26:45 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:26:46 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:26:46 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:11 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 22:27:11 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:11 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:11 [[32minfo[39m]: Postgres connected! 
+2021-12-18 22:27:15 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:15 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:21 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 22:27:21 [[32minfo[39m]: Postgres connected! 
+2021-12-18 22:27:22 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:22 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:47 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 22:27:47 [[32minfo[39m]: Postgres connected! 
+2021-12-18 22:27:48 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:48 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:49 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:49 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:49 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:49 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:50 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:50 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:50 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:50 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:50 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:50 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:51 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:51 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:51 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:51 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:51 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:51 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:54 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:54 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:54 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:54 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:57 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:57 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:58 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:58 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:59 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:59 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:27:59 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:27:59 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:00 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:00 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:00 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:00 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:01 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:01 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:01 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:01 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:01 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:01 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:02 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:02 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:03 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:03 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:03 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:03 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:28:03 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:28:03 [[31merror[39m]: Error handler  internal server error {
+  "name": "BadRequest",
+  "info": {
+    "email": "User does not exists"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "User does not exist",
+  "stack": "BadRequest: internal server error\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:20:26)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:5:58)"
+}
+2021-12-18 22:29:22 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 22:29:22 [[32minfo[39m]: Postgres connected! 
+2021-12-18 22:58:20 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 22:58:20 [[32minfo[39m]: Postgres connected! 
+2021-12-18 22:58:22 [[32minfo[39m]: Request logged:POST /api/auth/register 
+2021-12-18 22:58:22 [[31merror[39m]: Error handler  Invalid body {
+  "name": "ValidationError",
+  "info": {
+    "first_name": "You must provide your last name"
+  },
+  "httpCode": 400,
+  "isOperational": true,
+  "short_message": "Bad request",
+  "stack": "ValidationError: Invalid body\n    at new BaseError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\BaseError.ts:26:15)\n    at new HTTPError (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\errors\\HTTPError.ts:5:9)\n    at AuthService.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:35:29)\n    at Generator.next (<anonymous>)\n    at D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:4:12)\n    at AuthService.register (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\services\\auth\\AuthService.ts:42:16)\n    at AuthController.<anonymous> (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:57:51)\n    at Generator.next (<anonymous>)\n    at D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:4:12)\n    at AuthController.register (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\src\\controllers\\auth\\AuthController.ts:63:16)\n    at Layer.handle [as handle_request] (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\express\\lib\\router\\route.js:137:13)"
+}
+2021-12-18 22:58:36 [[32minfo[39m]: Request logged:POST /api/auth/register 
+2021-12-18 22:59:01 [[32minfo[39m]: Request logged:POST /api/auth/login 
+2021-12-18 22:59:12 [[32minfo[39m]: Request logged:POST /api/auth/login 
