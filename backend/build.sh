@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-export DB_USER='*****'
-export DB_PASSWORD='*****'
+export DB_USER='postgres'
+export DB_PASSWORD='manigli1'
 export DB_HOST='localhost'
 export DB_PORT='5432'
-export DB_DATABASE='*****'
+export DB_DATABASE='yt-download'
 
 export NODE_ENV='development'
 

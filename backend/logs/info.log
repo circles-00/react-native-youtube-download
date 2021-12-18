@@ -1,3 +1,50 @@
 2021-12-18 17:18:31 [[32minfo[39m]: App listening on port 5000! 
 2021-12-18 17:19:32 [[32minfo[39m]: App listening on port 5000! 
 2021-12-18 17:21:19 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:29:24 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:29:43 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:30:19 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:31:03 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:33:30 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:33:42 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:36:27 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:36:43 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:36:48 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:37:40 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:38:02 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:38:32 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:38:43 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:40:31 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:42:33 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:44:13 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:44:56 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:47:37 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:48:03 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:50:00 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:50:11 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:50:48 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:50:55 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:51:18 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 17:54:54 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 18:17:41 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 18:17:41 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
+  "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
+}
+2021-12-18 18:17:41 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
+  "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
+}
+2021-12-18 18:17:42 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
+  "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
+}
+2021-12-18 18:17:42 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
+  "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
+}
+2021-12-18 18:17:42 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
+  "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
+}
+2021-12-18 18:17:42 [[31merror[39m]: Postgres connection error Found a non-consecutive migration ID on file: '0000-init_migration.sql' {
+  "stack": "Error: Found a non-consecutive migration ID on file: '0000-init_migration.sql'\n    at Object.validateMigrationOrdering (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\validation.js:9:15)\n    at Object.loadMigrationFiles (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\files-loader.js:35:18)\n    at async migrate (D:\\myrootfiles\\Coding projects\\personal\\react-native-youtube-download\\backend\\node_modules\\postgres-migrations\\dist\\migrate.js:35:32)"
+}
+2021-12-18 18:17:42 [[32minfo[39m]: Postgres connected! 
+2021-12-18 18:18:40 [[32minfo[39m]: App listening on port 5000! 
+2021-12-18 18:18:40 [[32minfo[39m]: Postgres connected! 

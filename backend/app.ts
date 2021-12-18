@@ -4,7 +4,7 @@ import path from 'path'
 import IErrorHandlerInterface from "./src/interfaces/IErrorHandler.interface";
 import {logger} from "./src/logger/Logger";
 import passport from "passport";
-// import jwtMiddleware from './src/middlewares/jwt'
+import jwtMiddleware from './src/middlewares/jwt'
 
 class App {
     public app: Application
@@ -19,7 +19,7 @@ class App {
             done(null, user)
         })
 
-        // jwtMiddleware(passport)
+        jwtMiddleware(passport)
         this.middleWares(appInit.middleWares)
         this.routes(appInit.controllers)
         this.errorHandlerMiddleware(appInit.errorHandler.handleError)

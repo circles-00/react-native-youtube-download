@@ -10,6 +10,7 @@
   "author": "Nikola Krezeski",
   "license": "ISC",
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "axios": "^0.24.0",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
@@ -21,6 +22,7 @@
     "lodash.isempty": "^4.4.0",
     "passport": "^0.5.2",
     "passport-jwt": "^4.0.0",
+    "pg": "^8.7.1",
     "pg-monitor": "^1.4.1",
     "pg-promise": "^10.11.1",
     "postgres-migrations": "^5.3.0",
@@ -28,6 +30,7 @@
     "winston-mail": "^2.0.0"
   },
   "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
     "@types/bcryptjs": "^2.4.2",
     "@types/bluebird": "^3.5.36",
     "@types/cookie-parser": "^1.4.2",
