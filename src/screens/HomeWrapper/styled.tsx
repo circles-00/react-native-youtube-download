@@ -1,7 +1,7 @@
 // @ts-ignore
 import styled from '@emotion/native'
-import { StyleSheet } from "react-native";
-import { Colors } from "../../constants/Colors";
+import { StyleSheet } from 'react-native'
+import { Colors } from '../../config/Colors'
 
 export const styles = StyleSheet.create({
   tabs: {

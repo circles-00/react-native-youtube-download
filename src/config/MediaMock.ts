@@ -1,4 +1,4 @@
-import IMediaCard from '../interfaces/IMediaCard'
+import IMediaCard from '../interfaces/components/IMediaCard'
 
 export const MediaMock: Array<IMediaCard> = [
   {

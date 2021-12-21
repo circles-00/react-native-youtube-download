@@ -1,8 +1,10 @@
-import { combineReducers } from "redux";
-import decoyReducer from "./decoyReducer";
+import { combineReducers } from 'redux'
+import authReducer from '../services/reducers/auth/reducer'
+import feedbackReducer from '../services/reducers/feedback/reducer'
 
 const rootReducer = combineReducers({
-  decoyReducer
+  auth: authReducer,
+  feedback: feedbackReducer
 })
 
 export default rootReducer

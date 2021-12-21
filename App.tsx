@@ -1,7 +1,19 @@
-import { YellowBox } from 'react-native';
+import { YellowBox } from 'react-native'
 
-import App from './src';
+import App from './src'
+// @ts-ignore
+import React from 'react'
+import store from './src/store/store'
+import { Provider } from 'react-redux'
 
-YellowBox.ignoreWarnings(['Remote debugger is in a background tab']);
+const AppRoot: React.FC = () => {
+  return (
+    <Provider store={store}>
+      <App />
+    </Provider>
+  )
+}
 
-export default App;
+YellowBox.ignoreWarnings(['Remote debugger is in a background tab'])
+
+export default AppRoot

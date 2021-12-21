@@ -4,9 +4,9 @@ import { View, Text, ScrollView, SafeAreaView } from 'react-native'
 import { styles } from './styled'
 import GreetingsHeading from './components/GreetingsHeading/GreetingsHeading'
 import { Searchbar } from 'react-native-paper'
-import { Colors } from '../../constants/Colors'
+import { Colors } from '../../config/Colors'
 import MediaCards from './components/MediaCards/MediaCards'
-import { MediaMock } from '../../constants/MediaMock'
+import { MediaMock } from '../../config/MediaMock'
 
 const Home: React.FC = () => {
   return (

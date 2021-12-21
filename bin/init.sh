@@ -9,7 +9,7 @@ escape='\x1B[0m'
 
 #Show responses for commands
 showResponses() {
-  #Check if it exited cleanly or threw errors
+  #Check if it exited cleanly or threw feedback
   if [[ "$1" -eq 0 ]]; then
     printf "$green done $escape \n"
   else

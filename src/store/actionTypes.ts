@@ -1,0 +1,3 @@
+export const SET_IS_AUTHENTICATED = 'SET_IS_AUTHENTICATED'
+export const SET_ERRORS = 'SET_ERRORS'
+export const SET_SPINNER = 'SET_SPINNER'

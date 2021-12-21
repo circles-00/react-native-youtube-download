@@ -1,11 +1,11 @@
 // @ts-ignore
 import styled from '@emotion/native'
-import { StyleSheet } from "react-native";
-import { Colors } from '../../constants/Colors'
+import { StyleSheet } from 'react-native'
+import { Colors } from '../../config/Colors'
 
 export const styles = StyleSheet.create({
   mediaMapContainer: {
-    backgroundColor: Colors.background,
+    backgroundColor: Colors.background
   },
   text: {
     color: '#ffffff'
@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     width: '95%',
     marginTop: 25,
     marginLeft: 10,
-    height: 60,
+    height: 60
   },
   searchInput: {
     color: '#a8a4a4',

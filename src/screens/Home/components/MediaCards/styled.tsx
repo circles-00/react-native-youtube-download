@@ -1,7 +1,7 @@
 // @ts-ignore
 import styled from '@emotion/native'
-import { StyleSheet } from "react-native";
-import { Colors } from "../../../../constants/Colors";
+import { StyleSheet } from 'react-native'
+import { Colors } from '../../../../config/Colors'
 
 export const styles = StyleSheet.create({
   container: {
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     marginRight: 15
   },
   image: {
-    width:200,
+    width: 200,
     height: 200,
     borderRadius: 15
   },

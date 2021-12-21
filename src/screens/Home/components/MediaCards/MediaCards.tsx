@@ -1,9 +1,9 @@
 import React from 'react'
 import { FlatList, Text, View, ListRenderItem } from 'react-native'
 import { styles } from './styled'
-import IMediaCards from '../../../../interfaces/IMediaCards'
+import IMediaCards from '../../../../interfaces/components/IMediaCards'
 import MediaCard from './MediaCard'
-import IMediaCard from '../../../../interfaces/IMediaCard'
+import IMediaCard from '../../../../interfaces/components/IMediaCard'
 
 const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items }) => {
   const renderItem: ListRenderItem<IMediaCard> = ({ item }) => {
