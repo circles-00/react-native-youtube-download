@@ -25,7 +25,10 @@ const Login: React.FC = () => {
     const { errors, isValid } = loginValidation({ email, password })
     if (!isValid) {
       setValidationErrors(errors)
-    } else dispatch(login({ email, password }))
+    } else {
+      setValidationErrors({})
+      dispatch(login({ email, password }))
+    }
   }
 
   return (

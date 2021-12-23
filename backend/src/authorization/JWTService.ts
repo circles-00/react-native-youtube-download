@@ -22,6 +22,7 @@ class JWTService implements IJWTService{
 
     generateRefreshToken(payload: any) {
         const refreshToken = this.sign(payload, {expiresIn: "1y"})
+        // add refreshToken to database
         return refreshToken
     }
 

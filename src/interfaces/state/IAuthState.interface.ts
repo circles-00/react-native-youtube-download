@@ -1,5 +1,6 @@
-import { IAuthTokensInterface } from '../response/IAuthTokens.interface'
+import { IUserState } from "./IUserState.interface";
 
 export interface IAuthState {
-  isAuthenticated: boolean
+  isAuthenticated: boolean,
+  user?: IUserState
 }

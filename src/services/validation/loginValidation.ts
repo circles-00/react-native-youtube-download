@@ -1,7 +1,7 @@
 import { ILoginBody } from '../../interfaces/request/ILoginBody.interface'
 import { IErrorsState } from '../../interfaces/state/IErrorsState.interface'
 import isEmail from 'validator/lib/isEmail'
-import isEmpty from 'validator/lib/isEmpty'
+import isEmpty from 'lodash.isempty'
 
 const loginValidation = ({ email, password }: ILoginBody) => {
   const errors: IErrorsState = {}
@@ -18,7 +18,7 @@ const loginValidation = ({ email, password }: ILoginBody) => {
     errors.password = 'Password must be at least 8 characters long'
   }
 
-  return { errors, isValid: Object.keys(errors).length === 0 }
+  return { errors, isValid: isEmpty(errors) }
 }
 
 export default loginValidation

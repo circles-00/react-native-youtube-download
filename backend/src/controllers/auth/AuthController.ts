@@ -42,11 +42,13 @@ class AuthController implements IControllerBase {
     async login(req: Request, res: Response, next: NextFunction) {
         try {
             const { email, password }: ILoginCredentials = req.body
-            const result = await this.authService.login({email, password})
-            console.log(result)
-            return res.status(200).json(result)
+            const { accessToken, refreshToken } = await this.authService.login({email, password})
+
+            return res.status(200).json({
+                accessToken: `Bearer ${accessToken}`,
+                refreshToken
+            })
         } catch (err) {
-            console.log('auth err', err)
             next(err)
         }
     }

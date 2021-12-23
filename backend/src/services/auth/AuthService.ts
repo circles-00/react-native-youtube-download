@@ -39,9 +39,7 @@ class AuthService implements IAuthService {
         if(existingUser) throw new HTTPError({instagram_username: "This user is already registered"}, 'BadRequest','User already exist', 400)
 
         let createdUser
-        const hash = bcrypt.hashSync(credentials.password, 12)
-        const token = this.jwtService.sign({...credentials, password: hash})
-        credentials.password = hash
+        credentials.password = bcrypt.hashSync(credentials.password, 12)
         // @ts-ignore
         delete credentials.confirm_password
         if (!existingUser) createdUser = await this.usersRepository.createUser(credentials)
