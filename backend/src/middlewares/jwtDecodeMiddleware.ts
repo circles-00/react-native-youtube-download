@@ -10,8 +10,7 @@ export default async (req: Request, res: Response, next: NextFunction) => {
     try {
         await jwtService.verify(token)
         next()
-    } catch (err: any) {
-        console.log("err", err)
+    } catch (err) {
         next(err)
     }
 }

@@ -8,6 +8,11 @@ export DB_DATABASE='yt-download'
 
 export NODE_ENV='development'
 
+export SPOTIFY_CLIENT_ID='*****'
+export SPOTIFY_CLIENT_SECRET='*****'
+export SPOTIFY_BASE_URL='https://api.spotify.com/v1/'
+export SPOTIFY_AUTH_BASE_URL='https://accounts.spotify.com/api/'
+
 PS3='Select build type: '
 options=("Local build" "Quit")
 select option in "${options[@]}"
