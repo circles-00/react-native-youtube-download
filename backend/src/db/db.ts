@@ -5,6 +5,7 @@ import {IInitOptions, IDatabase, IMain} from 'pg-promise';
 import {logger} from "../logger/Logger";
 import {createDb, migrate} from "postgres-migrations"
 import { IExtensions, UsersRepository } from './repositories';
+import SpotifyRepository from "./repositories/SpotifyRepository";
 
 const {db: dbConfig} = keys
 
@@ -16,6 +17,7 @@ const initOptions: IInitOptions<IExtensions> = {
 
     extend(obj: ExtendedProtocol, dc: any) {
         obj.users = new UsersRepository(obj, pgp)
+        obj.spotify = new SpotifyRepository(obj, pgp)
     }
 }
 

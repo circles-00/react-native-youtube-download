@@ -8,7 +8,7 @@ import {errorHandler} from "./src/errors/ErrorHandler";
 import appUrlResolver from "./src/middlewares/appUrlResolver";
 import cookieToAuthHeader from "./src/middlewares/cookieToAuthHeader";
 import cookieParser from "cookie-parser";
-
+import spotifyController from "./src/controllers/spotify";
 
 const app = new App({
     port: process.env.PORT || 5000,
@@ -21,7 +21,8 @@ const app = new App({
         loggerMiddleware
     ],
     controllers: [
-        authController
+        authController,
+        spotifyController
     ],
     errorHandler
 })

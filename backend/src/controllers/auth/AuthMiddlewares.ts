@@ -1,6 +1,6 @@
 import { IAuthMiddlewares } from '../../interfaces/controllers/middlewares/IAuthMiddlewares.interface';
 import { Middlewares } from '../Middlewares'
-import express, {NextFunction, Request, RequestHandler, Response} from 'express'
+import {NextFunction, Request, Response} from 'express'
 import jwtDecodeMiddleware from '../../middlewares/jwtDecodeMiddleware';
 
 

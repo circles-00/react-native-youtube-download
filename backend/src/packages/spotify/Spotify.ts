@@ -2,6 +2,7 @@ import { ISpotifyPackage } from '../../interfaces/packages/ISpotifyPackage.inter
 import axios, { AxiosInstance } from "axios";
 import { logger } from "../../logger/Logger";
 import { stringify } from "querystring";
+import Catalogs from './Catalogs'
 
 const {
   SPOTIFY_CLIENT_ID,
@@ -13,10 +14,12 @@ class Spotify implements ISpotifyPackage {
   client_id: string | undefined
   client_secret: string | undefined
   axiosInstance?: AxiosInstance
+  catalogs: Catalogs
 
   constructor(client_id: string | undefined, client_secret: string | undefined) {
     this.client_id = client_id
     this.client_secret = client_secret
+    this.catalogs = new Catalogs(this.handleError)
     this.getAccessToken().then(access_token => {
       logger.info('Spotify authorized!')
       this.axiosInstance = axios.create({
@@ -24,6 +27,7 @@ class Spotify implements ISpotifyPackage {
           Authorization: `Bearer ${access_token}`
         }
       })
+      this.catalogs.setAxios(this.axiosInstance)
     }).catch(err => logger.error(`GET Spotify Access Token Error! - ${err}`))
   }
 
@@ -51,6 +55,27 @@ class Spotify implements ISpotifyPackage {
   encodeStringToBase64(credentials: string) {
     if (Buffer.from(credentials).byteLength !== credentials.length) throw new Error('Bad credentials!')
     return `Basic ${Buffer.from(credentials).toString('base64')}`
+  }
+
+  async handleError(err: any, cb: (numOfTries: number) => Promise<void>, numOfTries: number) {
+    if(err.response) {
+      const { status, data } = err.response
+      if (status === 403 || status === 401) {
+        if (numOfTries <= 0) throw err
+        try {
+          const token = await this.getAccessToken()
+          const axiosInstance = axios.create({
+            headers: {
+              Authorization: 'bearer ' + token.access_token
+            }
+          })
+          this.catalogs.setAxios(axiosInstance)
+          return cb(--numOfTries)
+        } catch (err) {
+          throw err
+        }
+      }
+    } else throw err
   }
 }
 

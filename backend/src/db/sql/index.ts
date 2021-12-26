@@ -7,6 +7,10 @@ export const users = {
     createUser: sql('users/createUser.sql')
 }
 
+export const spotify = {
+    /// ...
+}
+
 function sql(file: string): QueryFile {
 
     const fullPath: string = joinPath(__dirname, file)
