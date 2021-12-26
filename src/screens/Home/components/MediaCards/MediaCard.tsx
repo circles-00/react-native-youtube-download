@@ -1,17 +1,17 @@
 import React from 'react'
-import { View, Image, Text } from 'react-native'
+import { View, Image, Text, TouchableOpacity } from "react-native";
 import IMediaCard from '../../../../interfaces/components/IMediaCard'
 import { styles } from './styled'
 
-const MediaCard: React.FC<IMediaCard> = ({ heading, subHeading, imageUrl }) => {
+const MediaCard: React.FC<IMediaCard> = ({ name, description, images, onPlaylistId, id }) => {
   return (
-    <View style={styles.mediaInfoContainer}>
-      <Image source={{ uri: imageUrl }} style={styles.image} />
+    <TouchableOpacity style={styles.mediaInfoContainer} onPress={() => onPlaylistId(id)}>
+      <Image source={{ uri: images[0]?.url }} style={styles.image} />
       <View>
-        <Text style={styles.heading}>{heading}</Text>
-        <Text style={styles.subHeading}>{subHeading}</Text>
+        <Text style={styles.heading}>{name}</Text>
+        <Text style={styles.subHeading}>{description?.substring(0,35) + '...'}</Text>
       </View>
-    </View>
+    </TouchableOpacity >
   )
 }
 

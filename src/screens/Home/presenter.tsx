@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import { View, Text, ScrollView, SafeAreaView } from 'react-native'
 
 import { styles } from './styled'
@@ -7,8 +7,20 @@ import { Searchbar } from 'react-native-paper'
 import { Colors } from '../../config/Colors'
 import MediaCards from './components/MediaCards/MediaCards'
 import { MediaMock } from '../../config/MediaMock'
+import { getSpotifyCategories } from "../../services/actions/spotify/spotifyActions";
+import { useDispatch, useSelector } from "react-redux";
+import {IRootReducerState} from "../../interfaces/state/IRootReducerState.interface";
+import { ISpotifyCategories } from "../../interfaces/state/ISpotifyState.interface";
 
 const Home: React.FC = () => {
+  const dispatch = useDispatch()
+
+  const categories = useSelector<IRootReducerState, ISpotifyCategories | undefined>(state => state.spotify.categories)
+
+  useEffect(() => {
+    dispatch(getSpotifyCategories())
+  }, [dispatch])
+
   return (
     <SafeAreaView style={styles.mediaMapContainer}>
       <ScrollView>
@@ -27,8 +39,11 @@ const Home: React.FC = () => {
             placeholder={'Songs, albums or artists'}
           />
         }
-        <MediaCards sectionTitle={'Trending Now'} items={MediaMock} />
-        <MediaCards sectionTitle={'Popular Now'} items={MediaMock} />
+
+        {categories?.items?.map((category: object, idx) => {
+          // @ts-ignore
+          return <MediaCards key={idx} sectionTitle={category.name as string} items={category.playlists} />
+        })}
       </ScrollView>
     </SafeAreaView>
   )

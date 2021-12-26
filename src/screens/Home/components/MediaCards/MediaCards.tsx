@@ -4,14 +4,23 @@ import { styles } from './styled'
 import IMediaCards from '../../../../interfaces/components/IMediaCards'
 import MediaCard from './MediaCard'
 import IMediaCard from '../../../../interfaces/components/IMediaCard'
+import { useDispatch } from "react-redux";
 
 const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items }) => {
+  const dispatch = useDispatch()
+
+  const onPlaylistId = (playlistId: string) => {
+    // call getPlaylistsForCategory endpoint
+  }
+
   const renderItem: ListRenderItem<IMediaCard> = ({ item }) => {
     return (
       <MediaCard
-        heading={item.heading}
-        subHeading={item.subHeading}
-        imageUrl={item.imageUrl}
+        name={item.name}
+        description={item.description}
+        images={item.images}
+        onPlaylistId={onPlaylistId}
+        id={item.id}
       />
     )
   }
