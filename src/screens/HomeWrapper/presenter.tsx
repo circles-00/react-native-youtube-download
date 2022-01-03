@@ -1,4 +1,3 @@
-import { NavigationContainer } from '@react-navigation/native'
 import React from 'react'
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs'
 import Home from '../Home'
@@ -11,9 +10,9 @@ const Tab = createMaterialBottomTabNavigator()
 
 const HomeWrapper: React.FC = () => {
   return (
-    <NavigationContainer>
+    <>
       <Tab.Navigator
-        initialRouteName={'Home'}
+        initialRouteName={HOME_SCREEN_KEY}
         backBehavior={'history'}
         barStyle={styles.tabs}
         activeColor={Colors.primary}
@@ -59,7 +58,7 @@ const HomeWrapper: React.FC = () => {
           component={Home}
         />
       </Tab.Navigator>
-    </NavigationContainer>
+    </>
   )
 }
 

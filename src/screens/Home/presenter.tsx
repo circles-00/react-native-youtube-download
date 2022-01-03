@@ -1,18 +1,17 @@
 import React, { useEffect } from "react";
-import { View, Text, ScrollView, SafeAreaView } from 'react-native'
+import { ScrollView, SafeAreaView } from 'react-native'
 
 import { styles } from './styled'
 import GreetingsHeading from './components/GreetingsHeading/GreetingsHeading'
 import { Searchbar } from 'react-native-paper'
 import { Colors } from '../../config/Colors'
 import MediaCards from './components/MediaCards/MediaCards'
-import { MediaMock } from '../../config/MediaMock'
 import { getSpotifyCategories } from "../../services/actions/spotify/spotifyActions";
 import { useDispatch, useSelector } from "react-redux";
 import {IRootReducerState} from "../../interfaces/state/IRootReducerState.interface";
 import { ISpotifyCategories } from "../../interfaces/state/ISpotifyState.interface";
 
-const Home: React.FC = () => {
+const Home: React.FC = (props) => {
   const dispatch = useDispatch()
 
   const categories = useSelector<IRootReducerState, ISpotifyCategories | undefined>(state => state.spotify.categories)
@@ -42,7 +41,7 @@ const Home: React.FC = () => {
 
         {categories?.items?.map((category: object, idx) => {
           // @ts-ignore
-          return <MediaCards key={idx} sectionTitle={category.name as string} items={category.playlists} />
+          return <MediaCards key={idx} sectionTitle={category.name as string} items={category.playlists} navigation={props.navigation} />
         })}
       </ScrollView>
     </SafeAreaView>
