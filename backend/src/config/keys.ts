@@ -11,7 +11,7 @@ const keys = {
         database: DB_DATABASE,
         user: DB_USER,
         password: DB_PASSWORD,
-        ssl: true
+        ssl: { rejectUnauthorized: false }
     },
     jwt: {
         accessToken: {
