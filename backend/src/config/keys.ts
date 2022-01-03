@@ -10,7 +10,8 @@ const keys = {
         port,
         database: DB_DATABASE,
         user: DB_USER,
-        password: DB_PASSWORD
+        password: DB_PASSWORD,
+        ssl: true
     },
     jwt: {
         accessToken: {
