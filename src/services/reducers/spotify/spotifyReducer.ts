@@ -1,5 +1,5 @@
 import { IReduxAction } from '../../../interfaces/actions/IReduxAction.interface'
-import { SET_SPOTIFY_CATEGORIES } from "../../../store/actionTypes";
+import { SET_SPOTIFY_CATEGORIES, SET_SPOTIFY_TRACKS_FOR_PLAYLIST } from "../../../store/actionTypes";
 import { ISpotifyState } from "../../../interfaces/state/ISpotifyState.interface";
 
 const initialState = {}
@@ -13,6 +13,11 @@ const spotifyReducer = (
       return {
         ...state,
         categories: action.payload
+      }
+    case SET_SPOTIFY_TRACKS_FOR_PLAYLIST:
+      return {
+        ...state,
+        currentPlaylistTracks: action.payload
       }
     default:
       return { ...state }

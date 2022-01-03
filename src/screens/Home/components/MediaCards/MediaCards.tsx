@@ -12,7 +12,9 @@ const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items, navigation }) 
 
   const onPlaylistId = (playlistId: string) => {
     console.log(`PLAYLIST SCREEN PUSHED, playlistId: ${playlistId}`)
-    navigation.push(PLAYLIST_SCREEN_KEY)
+    navigation.push(PLAYLIST_SCREEN_KEY, {
+      playlistId: playlistId
+    })
   }
 
   const renderItem: ListRenderItem<IMediaCard> = ({ item }) => {

@@ -11,3 +11,8 @@ export const spotify_categories_endpoint: IEndpoint = {
   path: `${baseUrl}/api/spotify/categories`,
   method: 'get'
 }
+
+export const spotify_tracks_for_playlist_endpoint: IEndpoint = {
+  path: `${baseUrl}/api/spotify/playlist/tracks`,
+  method: 'get'
+}
