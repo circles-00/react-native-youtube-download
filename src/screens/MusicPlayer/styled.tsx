@@ -1,0 +1,44 @@
+import { StyleSheet } from 'react-native'
+import { Colors } from "../../config/Colors";
+
+export const styles = StyleSheet.create({
+  container: {
+    backgroundColor: Colors.background,
+    height: '100%',
+    width: '100%'
+  },
+  albumArt: {
+    width: 300,
+    height: 300,
+    borderRadius: 15,
+    marginTop: 25,
+    marginLeft: 30
+  },
+  songInfo: {
+  },
+  songName: {
+    fontSize: 35,
+    color: '#ffffff',
+    fontWeight: 'bold',
+    textAlign: 'center'
+  },
+  artists: {
+    fontSize: 15,
+    color: '#beb6b6',
+    textAlign: 'center'
+  },
+  audioControls: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginTop: 60,
+    marginLeft: 95
+  },
+  previousSong: {
+    marginTop: 10,
+    marginRight: 10
+  },
+  nextSong: {
+    marginTop: 10,
+    marginLeft: 10
+  }
+})

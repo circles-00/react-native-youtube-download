@@ -16,3 +16,8 @@ export const spotify_tracks_for_playlist_endpoint: IEndpoint = {
   path: `${baseUrl}/api/spotify/playlist/tracks`,
   method: 'get'
 }
+
+export const spotify_stream_song_endpoint: IEndpoint = {
+  path: `${baseUrl}/api/spotify/stream-song`,
+  method: 'get'
+}

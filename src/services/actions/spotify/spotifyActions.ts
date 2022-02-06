@@ -8,7 +8,6 @@ import { ISpotifyState } from "../../../interfaces/state/ISpotifyState.interface
 import { SET_SPOTIFY_CATEGORIES, SET_SPOTIFY_TRACKS_FOR_PLAYLIST } from "../../../store/actionTypes";
 import { ISetSpotifyTracksForPlaylist } from "../../../interfaces/actions/ISetSpotifyTracksForPlaylist.interface";
 
-
 export const getSpotifyCategories:
   | ActionCreator<
   ThunkAction<
@@ -24,7 +23,6 @@ export const getSpotifyCategories:
       try {
         dispatch(setSpinner(true))
         const res = await axios.get(spotify_categories_endpoint.path)
-        console.log(res)
         dispatch(setSpotifyCategories(res.data))
         dispatch(setSpinner(false))
       } catch (err) {

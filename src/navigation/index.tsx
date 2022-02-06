@@ -1,6 +1,4 @@
-import { createAppContainer } from 'react-navigation'
 import React from 'react'
-import { createStackNavigator } from 'react-navigation-stack'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeWrapper } from '../screens'
 import { NavigationContainer } from "@react-navigation/native";
@@ -9,6 +7,7 @@ import { HOME_SCREEN_KEY } from "../screens/Home";
 const Stack = createNativeStackNavigator();
 
 import {enableScreens} from 'react-native-screens'
+import MusicPlayer, { MUSIC_PLAYER_SCREEN_KEY } from "../screens/MusicPlayer";
 enableScreens()
 
 const RootStack: React.FC = () => {
@@ -22,6 +21,7 @@ const RootStack: React.FC = () => {
       >
         <Stack.Screen name={`${HOME_SCREEN_KEY}-root`} component={HomeWrapper} />
         <Stack.Screen name={PLAYLIST_SCREEN_KEY} component={PlaylistScreen} />
+        <Stack.Screen name={MUSIC_PLAYER_SCREEN_KEY} component={MusicPlayer} />
       </Stack.Navigator>
     </NavigationContainer>
   )

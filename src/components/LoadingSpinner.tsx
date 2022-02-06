@@ -9,6 +9,7 @@ const LoadingSpinner: React.FC<ILoadingSpinner> = ({ show }) => {
       {show && (
         <ActivityIndicator
           style={styles.loadingSpinner_container}
+          color={'green'}
           size="large"
         />
       )}

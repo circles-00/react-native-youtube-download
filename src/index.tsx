@@ -7,6 +7,7 @@ import {
 } from "./services/actions/auth/authActions";
 import { IRootReducerState } from './interfaces/state/IRootReducerState.interface'
 import LoadingSpinner from './components/LoadingSpinner'
+import MusicStateHandler from "./components/MusicStateHandler";
 
 const App: React.FC = () => {
   const dispatch = useDispatch()
@@ -25,6 +26,7 @@ const App: React.FC = () => {
 
   return (
     <React.Fragment>
+      {MusicStateHandler()}
       <LoadingSpinner show={showSpinner} />
       {isAuthenticated ? <Navigation /> : <LoginScreen />}
     </React.Fragment>
