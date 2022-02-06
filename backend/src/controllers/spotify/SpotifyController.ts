@@ -5,6 +5,8 @@ import isEmpty from 'lodash.isempty'
 import { ISpotifyMiddlewares } from "../../interfaces/controllers/middlewares/ISpotifyMiddlewares.interface";
 import { SpotifyMiddlewares } from "./SpotifyMiddlewares";
 import { ISpotifyService } from "../../interfaces/services/ISpotifyService.interface";
+const ffmpeg = require('fluent-ffmpeg');
+const ytdl = require('ytdl-core');
 
 class SpotifyController implements IControllerBase {
 
@@ -22,6 +24,12 @@ class SpotifyController implements IControllerBase {
       name: 'Playlist Tracks',
       path: '/playlist/tracks',
       requestHandler: this.getTracksForPlaylist.bind(this),
+      method: 'get'
+    },
+    {
+      name: 'Stream Song',
+      path: '/stream-song',
+      requestHandler: this.streamSong.bind(this),
       method: 'get'
     }
   ]
@@ -54,6 +62,26 @@ class SpotifyController implements IControllerBase {
 
       res.status(200).json(tracks)
     } catch (err) {
+      next(err)
+    }
+  }
+
+  async streamSong(req: Request, res: Response, next: NextFunction) {
+    try {
+      const { remoteAddress: clientIp } = req.socket
+      const { songName } = req.query
+      const songUrl = await this.spotifyService.getSongUrl(songName as string)
+
+      // Audio format header (OPTIONAL)
+      res.set({ "Content-Type": "audio/mpeg" });
+
+      // Send compressed audio mp3 data
+      ffmpeg()
+        .input(ytdl(songUrl))
+        .toFormat('mp3')
+        .on('error', () => console.log(`Stream from client with IP ${clientIp} closed`))
+        .pipe(res);
+    } catch(err) {
       next(err)
     }
   }

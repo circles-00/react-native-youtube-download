@@ -1,7 +1,7 @@
 import { ISpotifyService } from "../../interfaces/services/ISpotifyService.interface";
 import { ISpotifyRepository } from "../../interfaces/repositories/ISpotifyRepository.interface";
-import SpotifyController from "../../controllers/spotify/SpotifyController";
 const Spotify = require('../../packages/spotify/Spotify')
+import * as yt from 'youtube-search-without-api-key';
 
 class SpotifyService implements ISpotifyService {
   constructor(private spotifyRepository: ISpotifyRepository) {
@@ -9,7 +9,6 @@ class SpotifyService implements ISpotifyService {
 
   async getCategories () {
     const categories = await Spotify.catalogs.getCategories()
-    console.log('l0g', categories)
     categories.items = await Promise.all(categories.items.map(async(item: any) => {
       item.playlists = await Spotify.catalogs.getCategoryPlaylists(item.id)
       return item
@@ -19,6 +18,11 @@ class SpotifyService implements ISpotifyService {
 
   async getTracksForPlaylist (playlistId: string) {
     return await Spotify.catalogs.getPlaylistTracks(playlistId)
+  }
+
+  async getSongUrl(songName: string) {
+    const songRes = await yt.search(songName)
+    return (songRes[0] || {}).url
   }
 }
 
