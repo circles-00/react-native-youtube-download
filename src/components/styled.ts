@@ -10,7 +10,8 @@ export const styles = StyleSheet.create({
   mediaCardListContainer: {
     display: 'flex',
     flexDirection: 'row',
-    marginBottom: 20
+    marginBottom: 20,
+    marginLeft: 15
   },
   mediaCardListImage: {
     width: 64,
@@ -28,5 +29,16 @@ export const styles = StyleSheet.create({
   },
   mediaCardListSubHeadingText: {
     color: '#C2B5B5FF'
+  },
+  header: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginTop: 45,
+    marginLeft: 15
+  },
+  headerText: {
+    color: '#ffffff',
+    marginTop: 5,
+    marginLeft: 85
   }
 })

@@ -7,7 +7,7 @@ interface IMediaCard {
     }
   ],
   id: string,
-  onPlaylistId: (playlistId: string) => void
+  onPlaylistId: (playlistId: string, name: string) => void
 }
 
 export default IMediaCard
