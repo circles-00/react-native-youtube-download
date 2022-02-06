@@ -4,13 +4,14 @@ import { styles } from './styled'
 import IMediaCards from '../../../../interfaces/components/IMediaCards'
 import MediaCard from './MediaCard'
 import IMediaCard from '../../../../interfaces/components/IMediaCard'
-import { useDispatch } from "react-redux";
+import { PLAYLIST_SCREEN_KEY } from "../../../PlaylistScreen";
 
-const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items }) => {
-  const dispatch = useDispatch()
-
+const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items, navigation }) => {
   const onPlaylistId = (playlistId: string) => {
-    // call getPlaylistsForCategory endpoint
+    console.log(`PLAYLIST SCREEN PUSHED, playlistId: ${playlistId}`)
+    navigation.push(PLAYLIST_SCREEN_KEY, {
+      playlistId: playlistId
+    })
   }
 
   const renderItem: ListRenderItem<IMediaCard> = ({ item }) => {

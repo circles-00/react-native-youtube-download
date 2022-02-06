@@ -27,6 +27,8 @@ export const login:
   async (dispatch: Dispatch<ISetAuthAction | any>) => {
     try {
       dispatch(setSpinner(true))
+      console.log('hehe')
+
       const res = await axios.post(login_endpoint.path, credentials)
       await SecureStore.setItemAsync('accessToken', res.data.accessToken)
       dispatch(setIsAuthenticated(true))

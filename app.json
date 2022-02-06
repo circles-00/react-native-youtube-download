@@ -23,6 +23,9 @@
     ],
     "ios": {
       "supportsTablet": false
+    },
+    "android": {
+      "package": "com.yt.download"
     }
   }
 }

@@ -63,13 +63,13 @@ class Spotify implements ISpotifyPackage {
       if (status === 403 || status === 401) {
         if (numOfTries <= 0) throw err
         try {
-          const token = await this.getAccessToken()
+          const token = await SpotifyInstance.getAccessToken()
           const axiosInstance = axios.create({
             headers: {
               Authorization: 'bearer ' + token.access_token
             }
           })
-          this.catalogs.setAxios(axiosInstance)
+          SpotifyInstance.catalogs.setAxios(axiosInstance)
           return cb(--numOfTries)
         } catch (err) {
           throw err

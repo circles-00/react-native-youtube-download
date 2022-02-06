@@ -1,6 +1,6 @@
 import { IEndpoint } from '../interfaces/IEndpoint.interface'
 
-const baseUrl = 'http://192.168.1.105:5000'
+const baseUrl = 'https://yt-download-backend.herokuapp.com'
 
 export const login_endpoint: IEndpoint = {
   path: `${baseUrl}/api/auth/login`,
@@ -9,5 +9,10 @@ export const login_endpoint: IEndpoint = {
 
 export const spotify_categories_endpoint: IEndpoint = {
   path: `${baseUrl}/api/spotify/categories`,
+  method: 'get'
+}
+
+export const spotify_tracks_for_playlist_endpoint: IEndpoint = {
+  path: `${baseUrl}/api/spotify/playlist/tracks`,
   method: 'get'
 }
