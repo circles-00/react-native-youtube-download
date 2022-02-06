@@ -7,17 +7,18 @@ import IMediaCard from '../../../../interfaces/components/IMediaCard'
 import { PLAYLIST_SCREEN_KEY } from "../../../PlaylistScreen";
 
 const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items, navigation }) => {
-  const onPlaylistId = (playlistId: string) => {
+  const onPlaylistId = (playlistId: string, playlistName: string) => {
     console.log(`PLAYLIST SCREEN PUSHED, playlistId: ${playlistId}`)
     navigation.push(PLAYLIST_SCREEN_KEY, {
-      playlistId: playlistId
+      playlistId: playlistId,
+      playlistName: playlistName
     })
   }
 
   const renderItem: ListRenderItem<IMediaCard> = ({ item }) => {
     return (
       <MediaCard
-        name={item.name}
+        name={item?.name}
         description={item.description}
         images={item.images}
         onPlaylistId={onPlaylistId}

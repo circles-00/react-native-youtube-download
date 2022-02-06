@@ -5,7 +5,7 @@ import { styles } from './styled'
 
 const MediaCard: React.FC<IMediaCard> = ({ name, description, images, onPlaylistId, id }) => {
   return (
-    <TouchableOpacity style={styles.mediaInfoContainer} onPress={() => onPlaylistId(id)}>
+    <TouchableOpacity style={styles.mediaInfoContainer} onPress={() => onPlaylistId(id, name)}>
       <Image source={{ uri: images[0]?.url }} style={styles.image} />
       <View>
         <Text style={styles.heading}>{name}</Text>
