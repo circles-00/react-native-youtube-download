@@ -5,8 +5,10 @@ import isEmpty from 'lodash.isempty'
 import { ISpotifyMiddlewares } from "../../interfaces/controllers/middlewares/ISpotifyMiddlewares.interface";
 import { SpotifyMiddlewares } from "./SpotifyMiddlewares";
 import { ISpotifyService } from "../../interfaces/services/ISpotifyService.interface";
+import { logger } from "../../logger/Logger";
 const ffmpeg = require('fluent-ffmpeg');
 const ytdl = require('ytdl-core');
+const Chunker = require('stream-chunker');
 
 class SpotifyController implements IControllerBase {
 
@@ -73,14 +75,26 @@ class SpotifyController implements IControllerBase {
       const songUrl = await this.spotifyService.getSongUrl(songName as string)
 
       // Audio format header (OPTIONAL)
-      res.set({ "Content-Type": "audio/mpeg" });
+      res.set({ "Content-Type": "audio/mp3", 'accept-ranges': 'bytes' });
+
+      // Chunk data
+      const chunker = Chunker(16);
+
+      chunker.on('data', (chunk: any) => {
+        res.write(chunk);
+      });
+
+      chunker.on('error', () => logger.info(`Stream from client with IP ${clientIp} closed`))
+
+      chunker.on('end', () => {
+        res.end()
+      })
 
       // Send compressed audio mp3 data
       ffmpeg()
         .input(ytdl(songUrl))
         .toFormat('mp3')
-        .on('error', () => console.log(`Stream from client with IP ${clientIp} closed`))
-        .pipe(res);
+        .pipe(chunker);
     } catch(err) {
       next(err)
     }
