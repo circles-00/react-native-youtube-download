@@ -6,5 +6,8 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.background,
     height: '100%',
     width: '100%'
+  },
+  list: {
+    marginTop: 100
   }
 })
