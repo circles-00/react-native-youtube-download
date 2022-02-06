@@ -25,34 +25,34 @@ class Catalogs implements ISpotifyCatalogs {
     this.axiosInstance = axiosInstance
   }
 
-  async getCategories() {
+  async getCategories(numOfTries = 3) {
     try {
       // @ts-ignore
       const result = await this.axiosInstance.get(`${SPOTIFY_BASE_URL}browse/categories`)
       return result.data.categories
     } catch(err) {
-      // this.handleError(err, this.getCategories(numOfTries), numOfTries)
+      this.handleError(err, () => this.getCategories(), numOfTries)
       throw err
     }
   }
 
-  async getCategoryPlaylists(category: string) {
+  async getCategoryPlaylists(category: string, numOfTries = 3) {
     try {
       // @ts-ignore
       const result = await this.axiosInstance.get(`${SPOTIFY_BASE_URL}browse/categories/${category}/playlists`)
       return result.data.playlists.items
     } catch (err) {
-      throw err
+        this.handleError(err, () => this.getCategoryPlaylists(category), numOfTries)
     }
   }
 
-  async getPlaylistTracks(playlistId: string) {
+  async getPlaylistTracks(playlistId: string, numOfTries = 3) {
     try {
       // @ts-ignore
       const result = await this.axiosInstance.get(`${SPOTIFY_BASE_URL}playlists/${playlistId}/tracks`)
       return result.data.items.map((item: any) => item.track)
     } catch(err) {
-      throw err
+      this.handleError(err, () => this.getPlaylistTracks(playlistId), numOfTries)
     }
   }
 }

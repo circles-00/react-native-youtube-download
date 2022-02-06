@@ -9,6 +9,7 @@ class SpotifyService implements ISpotifyService {
 
   async getCategories () {
     const categories = await Spotify.catalogs.getCategories()
+    console.log('l0g', categories)
     categories.items = await Promise.all(categories.items.map(async(item: any) => {
       item.playlists = await Spotify.catalogs.getCategoryPlaylists(item.id)
       return item

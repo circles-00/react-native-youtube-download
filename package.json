@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "name": "@mrtnrst/expo-typescript-template",
+  "name": "react_yt-spotify_download",
   "version": "v1.0.0",
   "scripts": {
     "start:ios": "expo start --ios",
