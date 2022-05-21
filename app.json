@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-typescipt-template",
-    "slug": "expo-typescipt-template",
+    "name": "YT-Spotify",
+    "slug": "yt-spotify",
     "privacy": "public",
     "platforms": [
       "ios",

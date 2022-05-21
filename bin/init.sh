@@ -18,7 +18,7 @@ showResponses() {
       printf "Installing $blue$2$escape... \n"
       case $2 in
         expo-cli)
-          yarn install -g expo-cli
+          yarn add global expo-cli
           ;;
         yarn)
           HOMEBREW_NO_AUTO_UPDATE=1 brew install $2

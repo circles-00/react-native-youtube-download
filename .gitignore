@@ -12,3 +12,5 @@ backend/node_modules/**/*
 backend/package-lock.json
 backend/.idea/*
 backend/logs/*
+.idea
+yarn.lock

@@ -34,7 +34,10 @@
     "@react-navigation/native-stack": "^6.2.5",
     "axios": "^0.24.0",
     "expo": "^44.0.0",
+    "expo-av": "~10.2.0",
+    "expo-cli": "^5.4.6",
     "expo-secure-store": "~11.1.0",
+    "global": "^4.4.0",
     "jwt-decode": "^3.1.2",
     "lodash.isempty": "^4.4.0",
     "react": "16.11.0",
@@ -50,8 +53,7 @@
     "react-redux": "^7.2.6",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
-    "validator": "^13.7.0",
-    "expo-av": "~10.2.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
