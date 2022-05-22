@@ -9,7 +9,8 @@
     "test": "TZ=America/Chicago jest",
     "test:watch": "TZ=America/Chicago jest --watch",
     "pretty": "yarn prettier",
-    "lint": "yarn eslint"
+    "lint": "yarn eslint",
+    "build:android": "turtle build:android"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -37,6 +38,7 @@
     "expo-av": "~10.2.0",
     "expo-cli": "^5.4.6",
     "expo-secure-store": "~11.1.0",
+    "expo-updates": "~0.11.7",
     "global": "^4.4.0",
     "jwt-decode": "^3.1.2",
     "lodash.isempty": "^4.4.0",
