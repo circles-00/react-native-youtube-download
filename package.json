@@ -9,7 +9,7 @@
     "test:watch": "TZ=America/Chicago jest --watch",
     "pretty": "yarn prettier",
     "lint": "yarn eslint",
-    "build:android": "turtle build:android",
+    "build:android": "cd android && ./gradlew assembleRelease && cd ..",
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios"
