@@ -22,7 +22,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yt.download"
     },
     "android": {
       "package": "com.yt.download"

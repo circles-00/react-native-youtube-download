@@ -1,5 +1,4 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
   "name": "react_yt-spotify_download",
   "version": "v1.0.0",
   "scripts": {
@@ -10,7 +9,10 @@
     "test:watch": "TZ=America/Chicago jest --watch",
     "pretty": "yarn prettier",
     "lint": "yarn eslint",
-    "build:android": "turtle build:android"
+    "build:android": "turtle build:android",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -38,18 +40,23 @@
     "expo-av": "~10.2.0",
     "expo-cli": "^5.4.6",
     "expo-secure-store": "~11.1.0",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
     "expo-updates": "~0.11.7",
     "global": "^4.4.0",
     "jwt-decode": "^3.1.2",
     "lodash.isempty": "^4.4.0",
-    "react": "16.11.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-44.0.0.tar.gz",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
     "react-native-gesture-handler": "~2.1.0",
+    "react-native-music-control": "^1.4.1",
     "react-native-paper": "^4.11.0",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.10.1",
     "react-native-track-player": "^2.1.2",
     "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "0.17.1",
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^2.0.15",
     "react-redux": "^7.2.6",

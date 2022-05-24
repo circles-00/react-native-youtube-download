@@ -2,7 +2,9 @@ import { IReduxAction } from '../../../interfaces/actions/IReduxAction.interface
 import { SET_SPOTIFY_CATEGORIES, SET_SPOTIFY_TRACKS_FOR_PLAYLIST } from "../../../store/actionTypes";
 import { ISpotifyState } from "../../../interfaces/state/ISpotifyState.interface";
 
-const initialState = {}
+const initialState = {
+  currentPlaylistTracks: []
+}
 
 const spotifyReducer = (
   state: ISpotifyState = initialState,

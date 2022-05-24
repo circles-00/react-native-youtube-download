@@ -59,9 +59,9 @@ export const getSpotifyTracksForPlaylist:
   }
 }
 
-export const setSpotifyTracksForPlaylist: ActionCreator<ISetSpotifyTracksForPlaylist> = (
+export const setSpotifyTracksForPlaylist = (
   payload: ISpotifyState
-) => ({
+): ISetSpotifyTracksForPlaylist => ({
   type: SET_SPOTIFY_TRACKS_FOR_PLAYLIST,
   payload
 })

@@ -1,41 +1,35 @@
 import React, { useEffect } from "react";
-import { FlatList, View, ListRenderItem } from 'react-native'
-import { styles } from './styled'
-import { IPlaylist } from '../../interfaces/components/IPlaylist.interface'
-import { useDispatch, useSelector } from 'react-redux'
-import { getSpotifyTracksForPlaylist } from '../../services/actions/spotify/spotifyActions'
-import { IRootReducerState } from '../../interfaces/state/IRootReducerState.interface'
-import { ISpotifyPlaylistTracks } from '../../interfaces/state/ISpotifyState.interface'
-import MediaCardList from '../../components/MediaCardList'
+import { FlatList, ListRenderItem, View } from "react-native";
+import { styles } from "./styled";
+import { IPlaylist } from "../../interfaces/components/IPlaylist.interface";
+import { useDispatch, useSelector } from "react-redux";
+import { getSpotifyTracksForPlaylist } from "../../services/actions/spotify/spotifyActions";
+import { IRootReducerState } from "../../interfaces/state/IRootReducerState.interface";
+import MediaCardList from "../../components/MediaCardList";
 import Header from "../../components/Header";
 import { MUSIC_PLAYER_SCREEN_KEY } from "../MusicPlayer";
-import {
-  setArtistName,
-  setImage,
-  setIsInitPlay, setIsPlay,
-  setSongName
-} from "../../services/actions/musicPlayer/musicPlayerActions";
+import { setCurrentPlaylistTracks, setCurrentSong } from "../../services/actions/musicPlayer/musicPlayerActions";
+import { Track } from "react-native-track-player";
+
 
 const PlaylistScreen: React.FC<IPlaylist> = ({ route, navigation }) => {
   const dispatch = useDispatch()
-  const playlistTracks = useSelector<
-    IRootReducerState,
-    ISpotifyPlaylistTracks | undefined
-  >(state => state.spotify.currentPlaylistTracks)
   const { playlistId, playlistName } = route.params
+
+  const { spotify: {currentPlaylistTracks} } = useSelector((state: IRootReducerState) => state)
 
   useEffect(() => {
     dispatch(getSpotifyTracksForPlaylist(playlistId))
   }, [dispatch])
 
-  const renderItem: ListRenderItem<any> = ({ item }) => {
-    const artists = item.artists.map((artist: any) => artist.name)
+  const renderItem: ListRenderItem<Track> = ({ item, index }) => {
+    // const artists = item.artists.map((artist: any) => artist.name)
     return (
       <MediaCardList
-        name={item?.name}
-        image={item.album.images[0].url}
-        artists={artists.join(', ')}
-        onMediaCardClick={onMediaCardClick}
+        name={item?.title}
+        image={item?.artwork}
+        artists={item?.artist}
+        onMediaCardClick={() => onMediaCardClick(item)}
       />
     )
   }
@@ -44,12 +38,10 @@ const PlaylistScreen: React.FC<IPlaylist> = ({ route, navigation }) => {
     navigation.pop()
   }
 
-  const onMediaCardClick = (name: string, image: string, artists: string) => {
-    dispatch(setIsInitPlay(true))
-    dispatch(setSongName(name))
-    dispatch(setArtistName(artists))
-    dispatch(setImage(image))
-    navigation.push(MUSIC_PLAYER_SCREEN_KEY)
+  const onMediaCardClick = (track: Track) => {
+    dispatch(setCurrentSong(track))
+    dispatch(setCurrentPlaylistTracks(currentPlaylistTracks))
+    navigation.push(MUSIC_PLAYER_SCREEN_KEY);
   }
 
   return (
@@ -58,7 +50,7 @@ const PlaylistScreen: React.FC<IPlaylist> = ({ route, navigation }) => {
       <FlatList
         style={styles.list}
         // @ts-ignore
-        data={playlistTracks}
+        data={currentPlaylistTracks}
         renderItem={renderItem}
         keyExtractor={(item, index) => index.toString()}
       />

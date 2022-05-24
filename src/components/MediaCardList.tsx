@@ -5,7 +5,7 @@ import { IMediaCardList } from '../interfaces/components/IMediaCardList'
 
 const MediaCardList: React.FC<IMediaCardList> = ({ image, name, artists, onMediaCardClick }) => {
   return (
-    <TouchableOpacity style={styles.mediaCardListContainer} onPress={() => onMediaCardClick(name, image, artists)}>
+    <TouchableOpacity style={styles.mediaCardListContainer} onPress={() => onMediaCardClick()}>
       <Image source={{ uri: image }} style={styles.mediaCardListImage} />
       <View style={styles.mediaCardListInfo}>
         <Text style={styles.mediaCardListHeadingText}>{name}</Text>

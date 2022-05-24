@@ -5,6 +5,6 @@ import { IRegisterResponse } from '../models/IRegsiterResponse';
 
 export interface ISpotifyService {
   getCategories: () => Promise<any>
-  getTracksForPlaylist: (playlistId: string) => Promise<any>
+  getTracksForPlaylist: (playlistId: string, hostName: string) => Promise<any>
   getSongUrl: (songName: string) => Promise<any>
 }

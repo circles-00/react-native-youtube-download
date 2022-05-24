@@ -60,7 +60,7 @@ class SpotifyController implements IControllerBase {
   async getTracksForPlaylist(req: Request, res: Response, next: NextFunction) {
     try {
       const { playlistId } = req.query
-      const tracks = await this.spotifyService.getTracksForPlaylist(playlistId as string)
+      const tracks = await this.spotifyService.getTracksForPlaylist(playlistId as string, req.headers.host as string)
 
       res.status(200).json(tracks)
     } catch (err) {

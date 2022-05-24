@@ -1,6 +1,6 @@
 import { IEndpoint } from '../interfaces/IEndpoint.interface'
 
-const baseUrl = 'https://yt-download-backend.herokuapp.com'
+const baseUrl = 'http://192.168.1.109:5000'
 
 export const login_endpoint: IEndpoint = {
   path: `${baseUrl}/api/auth/login`,

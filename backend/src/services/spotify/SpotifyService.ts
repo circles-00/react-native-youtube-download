@@ -16,8 +16,21 @@ class SpotifyService implements ISpotifyService {
     return categories
   }
 
-  async getTracksForPlaylist (playlistId: string) {
-    return await Spotify.catalogs.getPlaylistTracks(playlistId)
+  async getTracksForPlaylist (playlistId: string, hostName: string) {
+    const tracks = await Spotify.catalogs.getPlaylistTracks(playlistId)
+
+    return tracks.map((track: any, idx: number) => {
+      const songArtists = track.artists.map((artist: any) => artist.name).join(', ')
+      return {
+        id: track.id,
+        title: track.name,
+        artist: songArtists,
+        artwork: track.album.images[0].url,
+        album: '',
+        duration: track.duration_ms / 1000,
+        url: `http://${hostName}/api/spotify/stream-song?songName=${track.name} - ${songArtists}`
+      }
+    })
   }
 
   async getSongUrl(songName: string) {
