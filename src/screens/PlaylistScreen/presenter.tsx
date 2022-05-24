@@ -3,7 +3,10 @@ import { FlatList, ListRenderItem, View } from "react-native";
 import { styles } from "./styled";
 import { IPlaylist } from "../../interfaces/components/IPlaylist.interface";
 import { useDispatch, useSelector } from "react-redux";
-import { getSpotifyTracksForPlaylist } from "../../services/actions/spotify/spotifyActions";
+import {
+  getSpotifyTracksForPlaylist,
+  setSpotifyTracksForPlaylist
+} from "../../services/actions/spotify/spotifyActions";
 import { IRootReducerState } from "../../interfaces/state/IRootReducerState.interface";
 import MediaCardList from "../../components/MediaCardList";
 import Header from "../../components/Header";
@@ -20,6 +23,10 @@ const PlaylistScreen: React.FC<IPlaylist> = ({ route, navigation }) => {
 
   useEffect(() => {
     dispatch(getSpotifyTracksForPlaylist(playlistId))
+
+    return () => {
+      dispatch(setSpotifyTracksForPlaylist([]))
+    }
   }, [dispatch])
 
   const renderItem: ListRenderItem<Track> = ({ item, index }) => {
@@ -41,7 +48,6 @@ const PlaylistScreen: React.FC<IPlaylist> = ({ route, navigation }) => {
   const onMediaCardClick = (track: Track) => {
     dispatch(setCurrentSong(track))
     dispatch(setCurrentPlaylistTracks(currentPlaylistTracks))
-    navigation.push(MUSIC_PLAYER_SCREEN_KEY);
   }
 
   return (

@@ -8,12 +8,18 @@ import { useDispatch, useSelector } from "react-redux";
 import { IRootReducerState } from "../../interfaces/state/IRootReducerState.interface";
 import { setIsPlay, setMusicAction } from "../../services/actions/musicPlayer/musicPlayerActions";
 import {  useProgress } from "react-native-track-player";
+import AppPlayer from "../../services/music_player/AudioPlayer";
+import Slider from "@react-native-community/slider";
 
 const MusicPlayer: React.FC<IMusicPlayer> = ({ route, navigation }) => {
   const dispatch = useDispatch()
   const { musicPlayer: { currentSong, isPlay } } = useSelector((state: IRootReducerState) => state)
 
   const progress = useProgress();
+  useEffect(() => {
+    if (progress.position === currentSong.duration) dispatch(setMusicAction("next"));
+  }, [progress, currentSong]);
+  // console.log(progress)
 
   const handlePlayPause = () => {
     dispatch(setMusicAction('startPause'))
@@ -44,6 +50,21 @@ const MusicPlayer: React.FC<IMusicPlayer> = ({ route, navigation }) => {
         <Text style={styles.songName}>{currentSong?.title}</Text>
         <Text style={styles.artists}>{currentSong?.artist}</Text>
       </View>
+
+      <View style={styles.progressBarSection}>
+        <Text>{AppPlayer.secondsToHHMMSS(Math.floor(progress.position || 0))}</Text>
+        <Slider
+          style={{ width: '70%', height: 40 }}
+          minimumValue={0}
+          maximumValue={currentSong.duration}
+          minimumTrackTintColor="#52527a"
+          maximumTrackTintColor="#52527a"
+          thumbTintColor="#52527a"
+          value={progress.position}
+        />
+        <Text>{AppPlayer.secondsToHHMMSS(currentSong.duration || 0)}</Text>
+      </View>
+
       <View style={styles.audioControls}>
         <TouchableOpacity onPress={handlePrevSong}>
           <AntDesign

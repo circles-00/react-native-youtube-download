@@ -9,12 +9,12 @@ import MediaCards from './components/MediaCards/MediaCards'
 import { getSpotifyCategories } from "../../services/actions/spotify/spotifyActions";
 import { useDispatch, useSelector } from "react-redux";
 import {IRootReducerState} from "../../interfaces/state/IRootReducerState.interface";
-import { ISpotifyCategories } from "../../interfaces/state/ISpotifyState.interface";
+import MiniMusicPlayer from "./components/MiniMusicPlayer/MiniMusicPlayer";
 
-const Home: React.FC = (props) => {
+const Home: React.FC = (props: any) => {
   const dispatch = useDispatch()
 
-  const categories = useSelector<IRootReducerState, ISpotifyCategories | undefined>(state => state.spotify.categories)
+  const { spotify: {categories}, musicPlayer: {currentSong}} = useSelector((state: IRootReducerState) => state)
 
   useEffect(() => {
     dispatch(getSpotifyCategories())
@@ -22,6 +22,9 @@ const Home: React.FC = (props) => {
 
   return (
     <SafeAreaView style={styles.mediaMapContainer}>
+
+      {Object.values(currentSong).length > 0 ? <MiniMusicPlayer navigation={props.navigation} /> : null}
+
       <ScrollView>
         <GreetingsHeading title={'Hi There,'} name={'Nikola'} />
         {
@@ -40,8 +43,7 @@ const Home: React.FC = (props) => {
         }
 
         {categories?.items?.map((category: object, idx) => {
-          // @ts-ignore
-          return <MediaCards key={idx} sectionTitle={category.name as string} items={category.playlists} navigation={props.navigation} />
+          return category?.playlists?.length > 0 ? <MediaCards key={idx} sectionTitle={category.name as string} items={category.playlists} navigation={props.navigation} /> : null
         })}
       </ScrollView>
     </SafeAreaView>

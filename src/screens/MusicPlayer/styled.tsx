@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
     height: 300,
     borderRadius: 15,
     marginTop: 25,
-    marginLeft: 30
+    marginLeft: 45
   },
   songInfo: {
   },
@@ -20,7 +20,8 @@ export const styles = StyleSheet.create({
     fontSize: 35,
     color: '#ffffff',
     fontWeight: 'bold',
-    textAlign: 'center'
+    textAlign: 'center',
+    marginTop: 35
   },
   artists: {
     fontSize: 15,
@@ -29,16 +30,23 @@ export const styles = StyleSheet.create({
   },
   audioControls: {
     display: 'flex',
+    justifyContent: 'center',
     flexDirection: 'row',
-    marginTop: 60,
-    marginLeft: 95
+    marginTop: 45,
   },
   previousSong: {
     marginTop: 10,
-    marginRight: 10
+    marginRight: 20
   },
   nextSong: {
     marginTop: 10,
-    marginLeft: 10
-  }
+    marginLeft: 20
+  },
+  progressBarSection: {
+    marginTop: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    display: 'flex',
+    flexDirection: 'row',
+  },
 })
