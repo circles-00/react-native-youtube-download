@@ -1,12 +1,8 @@
 interface IMediaCard {
-  name: string,
-  description: string,
-  images: [
-    {
-      url: string
-    }
-  ],
-  id: string,
+  title: string
+  description: string
+  thumbnail: string
+  id: string
   onPlaylistId: (playlistId: string, name: string) => void
 }
 

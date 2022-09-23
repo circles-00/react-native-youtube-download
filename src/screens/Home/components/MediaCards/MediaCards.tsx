@@ -4,9 +4,13 @@ import { styles } from './styled'
 import IMediaCards from '../../../../interfaces/components/IMediaCards'
 import MediaCard from './MediaCard'
 import IMediaCard from '../../../../interfaces/components/IMediaCard'
-import { PLAYLIST_SCREEN_KEY } from "../../../PlaylistScreen";
+import { PLAYLIST_SCREEN_KEY } from '../../../PlaylistScreen'
 
-const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items, navigation }) => {
+const MediaCards: React.FC<IMediaCards> = ({
+  sectionTitle,
+  items,
+  navigation
+}) => {
   const onPlaylistId = (playlistId: string, playlistName: string) => {
     console.log(`PLAYLIST SCREEN PUSHED, playlistId: ${playlistId}`)
     navigation.push(PLAYLIST_SCREEN_KEY, {
@@ -18,11 +22,11 @@ const MediaCards: React.FC<IMediaCards> = ({ sectionTitle, items, navigation }) 
   const renderItem: ListRenderItem<IMediaCard> = ({ item }) => {
     return (
       <MediaCard
-        name={item?.name}
+        title={item?.title}
         description={item.description}
-        images={item.images}
+        thumbnail={item.thumbnail}
         onPlaylistId={onPlaylistId}
-        id={item.id}
+        id={item.spotifyId}
       />
     )
   }

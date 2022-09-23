@@ -1,11 +1,22 @@
-import { Track } from "react-native-track-player";
+import { Track } from 'react-native-track-player'
 
 export interface ISpotifyCategories {
-  items?: []
+  title: string
+  thumbnail: string
+  spotifyId: string
+  spotifyUrl: string
+  playlist: ISpotifyPlaylist[]
 }
 
+export interface ISpotifyPlaylist {
+  title: string
+  thumbnail: string
+  spotifyId: string
+  spotifyUrl: string
+  description: string
+}
 
 export interface ISpotifyState {
-  categories?: ISpotifyCategories,
+  categories?: ISpotifyCategories
   currentPlaylistTracks: Array<Track>
 }
