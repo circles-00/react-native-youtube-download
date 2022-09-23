@@ -7,12 +7,35 @@ export class SpotifyService {
   constructor(private readonly spotifyInstance: Spotify) {}
 
   async getCategories() {
-    const categories = await this.spotifyInstance.catalogs.getCategories();
-    categories.items = await Promise.all(
+    let categories = await this.spotifyInstance.catalogs.getCategories();
+    categories = await Promise.all(
       categories.items.map(async (item: any) => {
-        item.playlists =
+        let playlists =
           await this.spotifyInstance.catalogs.getCategoryPlaylists(item.id);
-        return item;
+
+        playlists = playlists
+          ? playlists.map((playlist) => {
+              const [playlistThumbnail] = playlist?.images;
+
+              return {
+                title: playlist?.name,
+                spotifyId: playlist?.id,
+                spotifyUrl: playlist?.href,
+                thumbnail: playlistThumbnail?.url || '',
+                description: playlist?.description,
+              };
+            })
+          : [];
+
+        const [thumbnail] = item?.icons;
+
+        return {
+          title: item?.name,
+          thumbnail: thumbnail?.url || '',
+          spotifyId: item?.id,
+          spotifyUrl: item?.href,
+          playlists,
+        };
       }),
     );
     return categories;

@@ -11,9 +11,11 @@ import * as ffmpeg from 'fluent-ffmpeg';
 import * as ytdl from 'ytdl-core';
 import * as Chunker from 'stream-chunker';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { Public } from '../decorators/public.decorator';
 
 @Controller('spotify')
-@UseGuards(JwtAuthGuard)
+// @UseGuards(JwtAuthGuard)
+@Public()
 export class SpotifyController {
   private readonly logger: Logger;
   constructor(private readonly spotifyService: SpotifyService) {}
@@ -33,12 +35,14 @@ export class SpotifyController {
     );
   }
 
+  @Public()
   @Get('/stream-song')
   async streamSong(@Request() req, @Response() res) {
     const { remoteAddress: clientIp } = req.socket;
     const { songName } = req.query;
-    const songUrl = await this.spotifyService.getSongUrl(songName as string);
 
+    const songUrl = await this.spotifyService.getSongUrl(songName as string);
+    // console.log(songUrl)
     // Audio format header (OPTIONAL)
     res.set({ 'Content-Type': 'audio/mp3', 'accept-ranges': 'bytes' });
 
@@ -58,6 +62,12 @@ export class SpotifyController {
     });
 
     // Send compressed audio mp3 data
-    ffmpeg().input(ytdl(songUrl)).toFormat('mp3').pipe(chunker);
+    ffmpeg()
+      .input(ytdl(songUrl, { dlChunkSize: 16 }), {
+        quality: 'highestaudio',
+        filter: 'audioonly',
+      })
+      .toFormat('mp3')
+      .pipe(chunker);
   }
 }

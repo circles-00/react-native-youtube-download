@@ -7,11 +7,13 @@ import { UserEntity } from '../models/user.entity';
 import { AuthModule } from '../auth/auth.module';
 import { UsersModule } from './users.module';
 import { SpotifyModule } from './spotify.module';
+import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot(configService.getTypeOrmConfig()),
     TypeOrmModule.forFeature([UserEntity]),
+    ScheduleModule.forRoot(),
     AuthModule,
     UsersModule,
     SpotifyModule,
